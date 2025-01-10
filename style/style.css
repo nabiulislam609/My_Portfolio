@@ -68,9 +68,11 @@ body {
     }
 }
 .hero-area h1 {
+    font-size: 2rem;
     padding: 15px 0;
 }
 .hero-area p {
+    font-size: 1.2rem;
     padding: 15px 0;
 }
 .hire-button {
@@ -78,11 +80,32 @@ body {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: transform 0.3s ease;
 }
 
 .hire-button:hover {
     transform: scale(1.1);
 }
 /* Hero Area End */
+/* About Area Start */
+.about-area {
+    padding: 3rem 1rem;  
+}
+.about-area h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.about-content img {
+    border-radius: 50%;
+    max-width: 300px;
+    margin-left: 30px;
+}
+.about-content p {
+    font-size: 1.2rem;
+}
+/* About Area End */
 
