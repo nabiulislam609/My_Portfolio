@@ -101,7 +101,7 @@ body {
 }
 .about-content img {
     border-radius: 50%;
-    max-width: 300px;
+    width: 300px;
     margin-left: 30px;
 }
 .about-content p {
