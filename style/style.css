@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Nav Area Start */
+.menu {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu a {
+    padding: O 20px;
+    color: white;
+    padding: 0 1rem;
+    line-height: 60px;
+    font-size: 1rem;
+}
+.menu a:hover {
+    background-color: darkgoldenrod;
+    transition: 1s;
+}
+/* Nav Area End */
+/* Hero Area Start */
+.hero-area {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #f4f4f4;
+    line-height: 30px;
+    animation: fadeIn 2s ease-in-out;
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.loder {
+    margin: 0 auto 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #007BFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+/* Animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.hero-area h1 {
+    padding: 15px 0;
+}
+.hero-area p {
+    padding: 15px 0;
+}
+.hire-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.hire-button:hover {
+    transform: scale(1.1);
+}
+/* Hero Area End */
+
