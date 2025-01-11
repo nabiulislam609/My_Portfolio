@@ -14,7 +14,7 @@ body {
 
 /* Nav Area Start */
 .menu {
-    background-color: #333333;
+    background-color: #333;
     height: 60px;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ body {
     gap: 1rem;
 }
 .project-card {
-    background-color: #F4F4F4;
+    background-color: #f3f3f3;
     color: black;
     padding: 5px 0;
     border-radius: 10px;
@@ -147,3 +147,45 @@ body {
     border-radius: 10px;
 }
 /* Project Area End */
+/* Contact Area Start */
+.contact {
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+  }
+.contact h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  } 
+.contact input, .contact textarea, .contact button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+  }
+.contact button {
+    background: #6a11cb;
+    color: #fff;
+    cursor: pointer;
+  } 
+.contact button:hover {
+    background: #2575fc;
+  }
+/* Contact Area End */
+
+/* Footer Area Start */
+.fotter {
+    background-color: #f3f3f3;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+}
+.fotter p {
+    text-align: center;
+}
+/* Footer Area End */
