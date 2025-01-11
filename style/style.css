@@ -32,6 +32,8 @@ body {
     transition: 1s;
 }
 /* Nav Area End */
+
+
 /* Hero Area Start */
 .hero-area {
     text-align: center;
@@ -40,6 +42,7 @@ body {
     line-height: 30px;
     animation: fadeIn 2s ease-in-out;
 }
+
 /* Animation */
 @keyframes fadeIn {
     from {
@@ -58,6 +61,7 @@ body {
     height: 40px;
     animation: spin 1s linear infinite;
 }
+
 /* Animation */
 @keyframes spin {
     from {
@@ -81,12 +85,14 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 .hire-button:hover {
     background-color: darkgoldenrod;
     transition: 1s;
 }
 /* Hero Area End */
+
+
+
 /* About Area Start */
 .about-area {
     padding: 3rem 1rem;  
@@ -109,6 +115,8 @@ body {
     font-size: 1.2rem;
 }
 /* About Area End */
+
+
 /* Project Area Start */
 .projects {
     padding: 1rem 1rem;
@@ -147,6 +155,8 @@ body {
     border-radius: 10px;
 }
 /* Project Area End */
+
+
 /* Contact Area Start */
 .contact {
     padding: 2rem;
@@ -177,6 +187,7 @@ body {
     background: #2575fc;
   }
 /* Contact Area End */
+
 
 /* Footer Area Start */
 .fotter {
