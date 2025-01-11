@@ -73,7 +73,7 @@ body {
     }
 }
 .hero-area {
-    background-image: url(../src/Hero\ Background.jpg);
+    background-image: url("../src/Hero\ Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
