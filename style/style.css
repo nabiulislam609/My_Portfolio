@@ -41,7 +41,7 @@ body {
     padding: 5rem 1rem;
     background-color: #f4f4f4;
     line-height: 30px;
-    animation: fadeIn 5s ease-in-out;
+    animation: fadeIn 4s ease-in-out;
 }
 
 /* Animation */
@@ -121,6 +121,7 @@ body {
 }
 .about-content p {
     font-size: 1.2rem;
+    text-align: justify;
 }
 /* About Area End */
 
@@ -208,3 +209,47 @@ body {
     text-align: center;
 }
 /* Footer Area End */
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu a {
+        padding: O 10px;
+        font-size: 1rem;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+}
