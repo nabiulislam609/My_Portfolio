@@ -83,7 +83,8 @@ body {
 }
 
 .hire-button:hover {
-    transform: scale(1.1);
+    background-color: darkgoldenrod;
+    transition: 1s;
 }
 /* Hero Area End */
 /* About Area Start */
@@ -108,4 +109,41 @@ body {
     font-size: 1.2rem;
 }
 /* About Area End */
-
+/* Project Area Start */
+.projects {
+    padding: 1rem 1rem;
+}
+.projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.project-card {
+    background-color: #F4F4F4;
+    color: black;
+    padding: 5px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 1s ease;
+}
+.project-card:hover {
+    background-color: #0056b3;
+    color: white;
+}
+.project-card h3 {
+    padding: 10px 0;
+}
+.project-card p {
+    padding: 10px 0;
+}
+.project-card img {
+    width: 450px;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* Project Area End */
